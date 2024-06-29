@@ -1,0 +1,18 @@
+/* Add any specific styles for the Logout section */
+.admin-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.admin-content button {
+    padding: 10px 20px;
+    background-color: #870707;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.admin-content button:hover {
+    background-color: #6c0606;
+}
