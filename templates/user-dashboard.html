@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank</title>
+    <link rel="stylesheet" href="./../static/styles.css">
+</head>
+<body>
+  <div class="popup-container" id="popupContainer">
+    <div class="popup" id="popup1">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup1')">&times;</span>
+            <h2>Our Upcoming Events</h2>
+            <div class="events-container">
+              <div class="event">
+                  <div class="event-details">
+                      <h2>Event 1</h2>
+                      <p><b>Venue</b>: Community Center, Downtown</p>
+                      <p><b>Date</b>: July 15, 2024</p>
+                      <p><b>Time</b>: 10:00 AM - 12:00 PM</p>
+                  </div>
+              </div>
+              <div class="event">
+                  <div class="event-details">
+                      <h2>Event 2</h2>
+                      <p><b>Venue</b>: City Hall, Uptown</p>
+                      <p><b>Date</b>: August 10, 2024</p>
+                      <p><b>Time</b>: 2:00 PM - 4:00 PM</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup2">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup2')">&times;</span>
+            <img src="./../static/b1.png" alt="Blood Donation" class="popup-image">
+            <h2>Emergency Need of Blood</h2>
+            <div class="contact-details">
+                <p><strong>Contact:</strong> Dr. John Doe</p>
+                <p><strong>Phone:</strong> +1 234 567 890</p>
+                <p><strong>Email:</strong> emergency@bloodbank.org</p>
+                <!-- Button Section -->
+<div class="button-container">
+  <a href="#" class="button">Contact Us</a>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <nav>
+      <div class="logo">
+        <a href="#">
+            <img src="./../static/.png" alt="">
+            Blood Bond
+        </a>
+    </div>
+       <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="tel:+1234567890">Contact Us</a></li>
+            <li><a href="find">Find Blood</a></li>
+            <li><a href="community">Community</a></li>
+            <li><a href="rewards">Rewards</a></li>
+          
+            <li><a href="logout"> <button>Logout</button></a></li>
+        </ul>
+    </nav>
+    <div class="blood-drop-container">
+      <img src="./../static/b14.png" alt="Blood Drop">
+  </div>
+    <div style="text-align: right;" class="content margin">
+      <h1 style="font-size: 60px;">"Be The Reason Of someone's <br> heartbeat."</h1>
+      <pre class = "content" style="font-size: 25px;">
+
+        Your contribution can make a world of difference, providing strength and support to 
+        families during their most challenging times. Join the cause and become a hero for
+         those who need it the most. Donate blood, save lives, and strengthen families.
+
+         You Saved {{saved_lives}} of lifes
+      </pre>  
+    </div>
+    <hr>
+    <div class="card-container">
+      <div class="card">
+          <div class="counter" id="counter1">0</div>
+          <div class="text">persons die every day in India due to non-availability of blood.</div>
+      </div>
+      <div class="card">
+          <div class="counter" id="counter">0</div>
+          <div class="text">people's lives saved.</div>
+      </div>
+      <div class="card">
+          <div class="counter" id="counter3">0</div>
+          <div class="text">million peoples lack blood supply every year.</div>
+      </div>
+  </div>
+    <footer>
+      <p>&copy; 2024 Blood Bond. All rights reserved.</p>
+      <p>Contact us: info@bloodbond.com | +91 8791478177</p>
+  </footer>
+  
+    <script src="./../static/script.js"></script>
+
+</body>
+</html>

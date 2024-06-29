@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Page</title>
+    <link rel="stylesheet" href="./../static/register-extra.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <button class="btn admin-btn" onclick="showAdminForm()">Enter as Admin</button>
+        
+        
+        <form id="admin-form" class="hidden">
+            <h2>Register as Admin</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit" class="btn submit-btn">Register</button>
+        </form>
+    </div>
+
+    <script src="./../static/register-extra.js"></script>
+</body>
+</html>

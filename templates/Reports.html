@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports - Admin Dashboard</title>
+    <link rel="stylesheet" href="./../static/Rep.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">
+                <!-- <img src="logo.png" alt="Blood Bank Logo"> -->
+                Blood Bank Admin
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="admin.html">Dashboard</a></li>
+            <li><a href="Don.html">Manage Donors</a></li>
+            <li><a href="Eve.html">Manage Events</a></li>
+            <li><a href="#">Manage Rewards</a></li>
+            <li><a href="logout.html">Logout</a></li>
+        </ul>
+    </nav>
+            <br>
+            <div class="container">
+                <label for="totalDonor">Total Donor: </label>
+                <span id="totalDonorValue">1200</span>
+                <input type="number" id="totalDonor" class="input-field" disabled>
+                
+                <button id="editTotalDonorButton" class="button">Edit</button>
+                <button id="resetTotalDonorButton" class="button">Reset</button>
+                <button id="submitTotalDonorButton" class="button" disabled>Submit</button>
+            </div>
+            <br>
+            <div class="container">
+                <label for="newDonor">New Donor: </label>
+                <span id="newDonorValue">100</span>
+                <input type="number" id="newDonor" class="input-field" disabled>
+                
+                <button id="editNewDonorButton" class="button">Edit</button>
+                <button id="resetNewDonorButton" class="button">Reset</button>
+                <button id="submitNewDonorButton" class="button" disabled>Submit</button>
+            </div>
+            <br>
+            <div class="container">
+                <label for="activeDonor">Active Donor: </label>
+                <span id="activeDonorValue">25</span>
+                <input type="number" id="activeDonor" class="input-field" disabled>
+                
+                <button id="editActiveDonorButton" class="button">Edit</button>
+                <button id="resetActiveDonorButton" class="button">Reset</button>
+                <button id="submitActiveDonorButton" class="button" disabled>Submit</button>
+            </div>
+            <br>
+            <div class="container">
+                <label for="currentInventory">Current Inventory: </label>
+                <span id="currentInventoryValue">100</span>
+                <input type="number" id="currentInventory" class="input-field" disabled>
+                
+                <button id="editCurrentInventoryButton" class="button">Edit</button>
+                <button id="resetCurrentInventoryButton" class="button">Reset</button>
+                <button id="submitCurrentInventoryButton" class="button" disabled>Submit</button>
+            </div>
+            <br>
+            <div class="container">
+                <label for="unitsCollected">Units Collected: </label>
+                <span id="unitsCollectedValue">50</span>
+                <input type="number" id="unitsCollected" class="input-field" disabled>
+                
+                <button id="editUnitsCollectedButton" class="button">Edit</button>
+                <button id="resetUnitsCollectedButton" class="button">Reset</button>
+                <button id="submitUnitsCollectedButton" class="button" disabled>Submit</button>
+            </div>
+            <br>
+            <div class="container">
+                <label for="unitsIssued">Units Issued: </label>
+                <span id="unitsIssuedValue">60</span>
+                <input type="number" id="unitsIssued" class="input-field" disabled>
+                
+                <button id="editUnitsIssuedButton" class="button">Edit</button>
+                <button id="resetUnitsIssuedButton" class="button">Reset</button>
+                <button id="submitUnitsIssuedButton" class="button" disabled>Submit</button>
+            </div>
+            <br>
+            <div class="container">
+                <label for="criticalStock">Critical Stock: </label>
+                <span id="criticalStockValue">150</span>
+                <input type="number" id="criticalStock" class="input-field" disabled>
+                
+                <button id="editCriticalStockButton" class="button">Edit</button>
+                <button id="resetCriticalStockButton" class="button">Reset</button>
+                <button id="submitCriticalStockButton" class="button" disabled>Submit</button>
+            </div>
+            <br>
+            <div class="container">
+                <label for="eventsOrganised">Events Organised: </label>
+                <span id="eventsOrganisedValue">5</span>
+                <input type="number" id="eventsOrganised" class="input-field" disabled>
+                
+                <button id="editEventsOrganisedButton" class="button">Edit</button>
+                <button id="resetEventsOrganisedButton" class="button">Reset</button>
+                <button id="submitEventsOrganisedButton" class="button" disabled>Submit</button>
+            </div>
+            <br>
+            <div class="container">
+                <label for="participationRate">Participation Rate: </label>
+                <span id="participationRateValue">95</span>
+                <input type="number" id="participationRate" class="input-field" disabled>
+               
+                <button id="editParticipationRateButton" class="button">Edit</button>
+                <button id="resetParticipationRateButton" class="button">Reset</button>
+                <button id="submitParticipationRateButton" class="button" disabled>Submit</button>
+            </div>
+            <br>
+            <div class="container">
+                <label for="bloodPerEvent">Blood Per Event: </label>
+                <span id="bloodPerEventValue">60</span>
+                <input type="number" id="bloodPerEvent" class="input-field" disabled>
+               
+                <button id="editBloodPerEventButton" class="button">Edit</button>
+                <button id="resetBloodPerEventButton" class="button">Reset</button>
+                <button id="submitBloodPerEventButton" class="button" disabled>Submit</button>
+            </div>
+            <br>
+            <div class="container">
+                <label for="rewardsDistributed">Rewards Distributed: </label>
+                <span id="rewardsDistributedValue">100</span>
+                <input type="number" id="rewardsDistributed" class="input-field" disabled>
+                
+                <button id="editRewardsDistributedButton" class="button">Edit</button>
+                <button id="resetRewardsDistributedButton" class="button">Reset</button>
+                <button id="submitRewardsDistributedButton" class="button" disabled>Submit</button>
+            </div>
+            <br>
+            <div class="container">
+                <label for="pointsRedeemed">Points Redeemed: </label>
+                <span id="pointsRedeemedValue">57</span>
+                <input type="number" id="pointsRedeemed" class="input-field" disabled>
+                
+                <button id="editPointsRedeemedButton" class="button">Edit</button>
+                <button id="resetPointsRedeemedButton" class="button">Reset</button>
+                <button id="submitPointsRedeemedButton" class="button" disabled>Submit</button>
+            </div>
+            
+            
+      
+
+    <script src="./../static/Rep.js"></script>
+</body>
+</html>

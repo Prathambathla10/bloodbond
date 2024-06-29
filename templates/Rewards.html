@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Rewards</title>
+    <link rel="stylesheet" href="./../static/rewards.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blood Donation Rewards</h1>
+
+        <div class="reward-section" id="education">
+            <h2>Education Rewards</h2>
+            <img src="./../static/edu.jpeg" alt="Education Rewards">
+            <p>Redeem your points for discounts on various courses and advance your education.</p>
+            <button class="details-button" onclick="toggleDetails('education-details')">More Details</button>
+            <div id="education-details" class="details">
+                <p>Get up to 50% off on online courses from top universities and institutions. Available courses include computer science, business management, and more!</p>
+            </div>
+        </div>
+
+        <div class="reward-section" id="health">
+            <h2>Health Rewards</h2>
+            <img src="./../static/health.jpeg" alt="Health Rewards">
+            <p>Enjoy life insurance discounts and free health checkups by redeeming your points.</p>
+            <button class="details-button" onclick="toggleDetails('health-details')">More Details</button>
+            <div id="health-details" class="details">
+                <p>Avail free annual health checkups at partner hospitals and clinics. Discounts on life insurance plans up to 20% for regular donors.</p>
+            </div>
+        </div>
+
+        <div class="reward-section" id="technology">
+            <h2>Technology Rewards</h2>
+            <img src="./../static/tech.jpeg" alt="Technology Rewards">
+            <p>Get gift vouchers for electronic gadgets and stay up-to-date with the latest technology.</p>
+            <button class="details-button" onclick="toggleDetails('technology-details')">More Details</button>
+            <div id="technology-details" class="details">
+                <p>Redeem points for gift vouchers from top electronics retailers. Use these vouchers to buy the latest smartphones, laptops, and more!</p>
+            </div>
+        </div>
+    </div>
+    <script src="./../static/rewards.js"></script>
+</body>
+</html>

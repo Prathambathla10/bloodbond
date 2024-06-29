@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Login</title>
+    <link rel="stylesheet" href="./../static/login.css">
+</head>
+<style>
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .form-group input, .form-group select {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+</style>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="number" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="role">Select Role</label>
+                <select id="role" name="role" required>
+                    <option value="User">User</option>
+                    <option value="Admin">Admin</option>
+                    <option value="moderator">Moderator</option>
+                </select>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register">Register here</a></p>
+    </div>
+</body>
+</html>
