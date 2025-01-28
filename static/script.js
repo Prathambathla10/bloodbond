@@ -1,4 +1,4 @@
-let currentIndex = 0;
+  let currentIndex = 0;
 const cards = document.querySelectorAll('.card');
 const colors = ['#ff9999', '#99ccff', '#99ff99', '#ffcc99', '#cc99ff', '#ffff99', '#99ffff', '#ff99ff', '#ccccff', '#ffccff'];
  

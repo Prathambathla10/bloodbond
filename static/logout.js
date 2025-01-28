@@ -1,4 +1,3 @@
-// JavaScript code for Logout section
 
 function logout() {
     // Perform logout actions (e.g., clear session, redirect to login page)
